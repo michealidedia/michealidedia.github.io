@@ -3,49 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.className += ' js';</script>
 
 <!-- ===========================================================
-     THINGS TO EDIT BEFORE YOU SHARE THE LINK
-       EDIT-LINKEDIN   your LinkedIn URL (appears twice)
-       EDIT-SCHOLAR    Google Scholar or ORCID
-       EDIT-URL        og:url, set to your live address
-       EDIT-PHONE      delete the line if you would rather not publish it
-     Then drop your CV at  assets/Anthony-Micheal-Idedia-CV.pdf
+     Portfolio of Anthony Micheal Idedia, October 2026.
+     Every image lives in the assets folder. Screenshots of live
+     study documents have names, contact and bank details, and
+     interview content covered before publication.
      =========================================================== -->
 
-<title>Anthony Micheal Idedia | Research, Evidence and Programme Delivery</title>
-<meta name="description" content="Portfolio of research, evidence and MEL work for donor-funded programmes in Nigeria: national market surveys, impact investment market sizing, climate and livelihoods baselines, and the data systems behind them.">
+<title>Anthony Micheal Idedia | Monitoring, Evaluation and Research</title>
+<meta name="description" content="Monitoring, evaluation and research for development programmes in Nigeria, for UNICEF, WFP, WimBiz and others, and the systems that keep programme evidence moving.">
 <meta name="author" content="Anthony Micheal Idedia">
 <meta name="robots" content="index,follow">
+<link rel="canonical" href="https://michealidedia.github.io/">
 
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Anthony Micheal Idedia | Research, Evidence and Programme Delivery">
-<meta property="og:description" content="Six years turning primary data into findings that governments, donors and investors act on. Selected engagements, systems and methods, with the artefacts.">
-<!-- EDIT-URL -->
+<meta property="og:site_name" content="Anthony Micheal Idedia">
+<meta property="og:title" content="Anthony Micheal Idedia | Monitoring, Evaluation and Research">
+<meta property="og:description" content="Field lead and trainer on a UNICEF and WFP study, M&amp;E framework work for WimBiz, and a system that turns Hausa interview recordings into checked English transcripts.">
 <meta property="og:url" content="https://michealidedia.github.io/">
-<meta property="og:image" content="https://michealidedia.github.io/assets/n8n-outreach-workflow.png">
+<meta property="og:image" content="https://michealidedia.github.io/assets/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image:alt" content="Anthony Micheal Idedia, monitoring, evaluation and research">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F3A5F'/%3E%3Crect x='7' y='14' width='18' height='4' fill='%23F5821F'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anthony Micheal Idedia",
+  "jobTitle": "Research and Data Analyst",
+  "worksFor": {"@type": "Organization", "name": "Innovision Global Consulting"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Lagos", "addressCountry": "NG"},
+  "url": "https://michealidedia.github.io/",
+  "image": "https://michealidedia.github.io/assets/headshot.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/micheal-idedia/",
+    "https://scholar.google.com/citations?hl=en&user=1euE4toAAAAJ"
+  ]
+}
+</script>
 
 <style>
+@font-face{font-family:"Libre Franklin";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/libre-franklin-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Libre Franklin";font-style:normal;font-weight:500;font-display:swap;src:url("fonts/libre-franklin-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Libre Franklin";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/libre-franklin-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"Libre Franklin";font-style:normal;font-weight:700;font-display:swap;src:url("fonts/libre-franklin-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/source-serif-4-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/source-serif-4-latin-600-normal.woff2") format("woff2")}
+
 :root{
   --navy:#1F3A5F;
   --ink:#14243A;
   --orange:#F5821F;
   --orange-ink:#A0530A;
+  --orange-soft:#FFB273;
   --paper:#F1F3F5;
   --white:#FFFFFF;
   --rule:#D6DCE3;
   --rule-hard:#A9B5C4;
-  --muted:#5A6A7D;
+  --muted:#56667A;
+  --on-navy:#FFFFFF;
+  --on-navy-soft:#C8D5E5;
+  --on-navy-rule:rgba(255,255,255,.2);
 
   --sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
   --serif:"Source Serif 4","Times New Roman",Times,serif;
+  color-scheme:light;
 }
 
 *{box-sizing:border-box}
@@ -54,16 +84,22 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 
 body{
   margin:0;background:var(--paper);color:var(--ink);
-  font-family:var(--serif);font-size:17.5px;line-height:1.6;
-  -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;
+  font-family:var(--serif);font-size:17.5px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;
 }
-h1,h2,h3,h4,.sans{font-family:var(--sans);font-variant-numeric:tabular-nums}
+h1,h2,h3,h4{font-family:var(--sans);color:var(--ink)}
 p{margin:0 0 .95em;max-width:66ch}
 img{max-width:100%;display:block}
 
 a{color:var(--navy);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:var(--rule-hard)}
 a:hover{color:var(--orange-ink);text-decoration-color:var(--orange)}
 a:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:2px}
+
+/* round bullets, used everywhere */
+ul.dots{list-style:none;margin:0 0 6px;padding:0;max-width:66ch}
+ul.dots li{position:relative;padding-left:20px;margin:0 0 9px}
+ul.dots li::before{content:"";position:absolute;left:2px;top:.66em;width:7px;height:7px;border-radius:50%;background:var(--orange)}
+ul.dots b{font-family:var(--sans);font-weight:600;font-size:.95em}
 
 /* ---------------- shell ---------------- */
 .shell{max-width:1180px;margin:0 auto;padding:0 22px}
@@ -72,14 +108,15 @@ a:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius
 }
 
 /* ---------------- rail ---------------- */
-.rail{padding:34px 0 10px}
+.rail{padding:30px 0 6px}
 @media (min-width:1060px){
   .rail{position:sticky;top:0;align-self:start;height:100vh;padding:54px 0 34px;display:flex;flex-direction:column}
 }
 .mark{display:block;text-decoration:none;color:inherit;margin-bottom:26px}
-.mark .bar{width:26px;height:4px;background:var(--orange);margin-bottom:11px}
+.mark .bar{display:block;width:26px;height:4px;background:var(--orange);margin-bottom:11px}
 .mark b{font-family:var(--sans);font-size:.93rem;font-weight:700;letter-spacing:-.015em;line-height:1.22;display:block}
 .mark em{font-family:var(--sans);font-size:.76rem;font-style:normal;color:var(--muted);display:block;margin-top:5px;line-height:1.4}
+.mark:hover{color:inherit}
 
 .rail nav{display:none}
 @media (min-width:1060px){.rail nav{display:block}}
@@ -94,26 +131,26 @@ a:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius
 .main{padding-bottom:90px;min-width:0}
 .hero{padding:6px 0 0}
 @media (min-width:1060px){.hero{padding:54px 0 0}}
-.kicker{font-family:var(--sans);font-size:.83rem;color:var(--muted);margin:0 0 18px;letter-spacing:.005em}
 .hero-top{display:grid;gap:22px 40px;align-items:start}
-.portrait{margin:0;grid-row:1}
+.portrait{margin:0}
 .portrait img{width:118px;height:auto;border:1px solid var(--rule-hard);background:var(--white)}
 @media (min-width:700px){
   .hero-top{grid-template-columns:minmax(0,1fr) 198px}
   .hero-text{grid-column:1;grid-row:1}
-  .portrait{grid-column:2}
+  .portrait{grid-column:2;grid-row:1}
   .portrait img{width:198px}
 }
-h1{font-size:clamp(2rem,5vw,3.15rem);font-weight:700;letter-spacing:-.03em;line-height:1.09;margin:0 0 20px;max-width:20ch}
-.lede{font-size:1.12rem;line-height:1.55;max-width:62ch}
+.kicker{font-family:var(--sans);font-size:.83rem;color:var(--muted);margin:0 0 16px}
+h1{font-size:clamp(1.95rem,4.2vw,2.7rem);font-weight:700;letter-spacing:-.028em;line-height:1.12;margin:0 0 20px;max-width:22ch;text-wrap:balance}
+.lede{font-size:1.1rem;line-height:1.56;max-width:62ch}
 
-.actions{display:flex;flex-wrap:wrap;gap:9px;margin:26px 0 0;font-family:var(--sans);font-size:.87rem}
+.actions{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0 0;font-family:var(--sans);font-size:.87rem}
 .actions a{display:inline-block;padding:9px 15px;border:1px solid var(--rule-hard);background:var(--white);color:var(--navy);text-decoration:none}
 .actions a:hover{border-color:var(--orange);color:var(--orange-ink);background:#FDF3E7}
 .actions a.solid{background:var(--navy);border-color:var(--navy);color:#fff}
 .actions a.solid:hover{background:var(--ink);border-color:var(--ink);color:#fff}
 
-.roster{margin:34px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:13px 0}
+.roster{margin:32px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:13px 0}
 .roster p{font-family:var(--sans);font-size:.76rem;color:var(--muted);margin:0 0 7px;max-width:none}
 .roster ul{list-style:none;display:flex;flex-wrap:wrap;gap:5px 0;margin:0;padding:0;font-family:var(--sans);font-size:.85rem;font-weight:500;color:var(--navy)}
 .roster li{padding-right:12px;margin-right:12px;border-right:1px solid var(--rule)}
@@ -121,122 +158,193 @@ h1{font-size:clamp(2rem,5vw,3.15rem);font-weight:700;letter-spacing:-.03em;line-
 
 /* ---------------- sections ---------------- */
 section{padding:64px 0 0;scroll-margin-top:22px}
-.shead{border-top:2px solid var(--navy);padding-top:13px;margin-bottom:24px}
+.shead{border-top:2px solid var(--navy);padding-top:13px;margin-bottom:22px}
 .shead h2{font-size:1.32rem;font-weight:700;letter-spacing:-.018em;margin:0}
 .shead p{font-family:var(--sans);font-size:.86rem;color:var(--muted);margin:7px 0 0;max-width:64ch;line-height:1.5}
 
-/* ---------------- index table ---------------- */
-.idx{border-bottom:1px solid var(--rule-hard);margin-bottom:8px}
-.idx-h{display:none}
-@media (min-width:780px){
-  .idx-h{display:grid;grid-template-columns:2.25fr 1.5fr 1.55fr 5.2em;gap:22px;
-    font-family:var(--sans);font-size:.74rem;color:var(--muted);padding:0 6px 7px 0}
-  .idx-h span:last-child{text-align:right}
+/* ---------------- what I bring ---------------- */
+.bring{list-style:none;margin:0;padding:0;border-bottom:1px solid var(--rule)}
+.bring li{border-top:1px solid var(--rule);padding:17px 0 15px;display:grid;gap:5px}
+.bring li:first-child{border-top:1px solid var(--rule-hard)}
+@media (min-width:760px){.bring li{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:34px}}
+.bring h3{font-size:1.02rem;font-weight:700;letter-spacing:-.01em;margin:0;line-height:1.32}
+.bring p{margin:0 0 5px;font-size:.99rem}
+.see{font-family:var(--sans);font-size:.82rem;font-weight:600}
+
+/* ---------------- featured system ---------------- */
+section.feature{
+  background:var(--navy);color:var(--on-navy);
+  margin:64px -22px 0;padding:38px 22px 34px;
 }
-.irow{display:grid;grid-template-columns:1fr;gap:3px 22px;padding:14px 0;
-  border-top:1px solid var(--rule);text-decoration:none;color:inherit}
-.irow:first-of-type{border-top:1px solid var(--rule-hard)}
-.irow:hover{background:var(--white)}
-.irow:hover .i-name{color:var(--orange-ink)}
-.i-name{font-family:var(--sans);font-weight:600;font-size:.96rem;line-height:1.3}
-.i-client{font-size:.93rem;color:var(--muted)}
-.i-scope{font-family:var(--sans);font-size:.83rem;font-weight:500;color:var(--orange-ink)}
-.i-year{font-family:var(--sans);font-size:.83rem;color:var(--muted)}
-@media (min-width:780px){
-  .irow{grid-template-columns:2.25fr 1.5fr 1.55fr 5.2em;align-items:baseline;padding:13px 6px 13px 0}
-  .i-year{text-align:right}
+@media (min-width:760px){section.feature{padding:48px 40px 40px}}
+@media (min-width:1060px){section.feature{margin:64px -44px 0 -40px}}
+.feature h2{color:#fff;font-size:clamp(1.55rem,3.3vw,2.1rem);font-weight:700;letter-spacing:-.025em;line-height:1.14;margin:0 0 16px;max-width:24ch}
+.feature p{color:var(--on-navy-soft)}
+.feature p strong{color:#fff;font-weight:600}
+.feature a{color:#fff;text-decoration-color:rgba(255,255,255,.45)}
+.feature a:hover{color:var(--orange-soft);text-decoration-color:var(--orange-soft)}
+.feature .origin{font-family:var(--sans);font-size:.8rem;color:var(--orange-soft);margin:0 0 12px}
+
+.lanes{margin:30px 0 10px}
+.lane-head{display:none}
+.flow{list-style:none;margin:0;padding:0;display:grid;gap:10px;position:relative}
+.step{position:relative;padding:13px 16px 14px 52px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.07)}
+.step.human{border:2px solid var(--orange);background:transparent;padding:12px 15px 13px 51px}
+.step .n{position:absolute;left:14px;top:13px;width:24px;height:24px;border-radius:50%;background:#fff;color:var(--navy);font-family:var(--sans);font-weight:700;font-size:.78rem;display:grid;place-items:center}
+.step.human .n{background:var(--orange);color:var(--ink);top:12px;left:13px}
+.step b{display:block;font-family:var(--sans);font-size:.93rem;color:#fff;margin-bottom:2px}
+.step p{margin:0;font-size:.9rem;line-height:1.48;color:var(--on-navy-soft);max-width:none}
+.step .actor{display:block;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--orange-soft);margin-bottom:3px}
+.flow::after{
+  content:"From here on, nobody has to do anything. The system translates, shares and summarises on its own.";
+  grid-column:1;grid-row:4;
+  font-family:var(--sans);font-size:.84rem;line-height:1.5;color:var(--on-navy-soft);
+  border-left:2px solid var(--orange);padding:2px 0 2px 12px;margin:4px 0
+}
+.step.auto .actor{color:var(--on-navy-soft)}
+@media (min-width:760px){
+  .lane-head{display:grid;grid-template-columns:5fr 7fr;column-gap:64px;font-family:var(--sans);font-size:.8rem;font-weight:600;margin-bottom:12px}
+  .lane-head span:first-child{color:var(--orange-soft)}
+  .lane-head span:last-child{color:var(--on-navy-soft)}
+  .flow{grid-template-columns:5fr 7fr;column-gap:64px;row-gap:10px}
+  .flow::before{content:"";position:absolute;left:calc((100% - 64px) * 5 / 12 + 32px);top:10px;bottom:10px;width:1px;background:var(--on-navy-rule)}
+  .flow::after{grid-row:4 / span 3;align-self:center;padding:0 6px 0 2px}
+  .flow li:nth-child(1){grid-row:1}
+  .flow li:nth-child(2){grid-row:2}
+  .flow li:nth-child(3){grid-row:3}
+  .flow li:nth-child(4){grid-row:4}
+  .flow li:nth-child(5){grid-row:5}
+  .flow li:nth-child(6){grid-row:6}
+  .step.human{grid-column:1}
+  .step.auto{grid-column:2}
+  .step::after{content:"";position:absolute;top:24px;width:32px;height:1px;background:var(--on-navy-rule)}
+  .step.human::after{right:-34px;background:var(--orange)}
+  .step.auto::after{left:-33px}
+  .step .actor{display:none}
 }
 
+.cols{display:grid;gap:8px 44px;margin:28px 0 0}
+@media (min-width:760px){.cols{grid-template-columns:1fr 1fr}}
+.cols h3{color:#fff;font-size:.95rem;font-weight:700;margin:0 0 10px}
+.feature ul.dots li{color:var(--on-navy-soft);font-size:.96rem}
+.feature ul.dots li::before{background:var(--orange)}
+
+.tools{display:flex;flex-wrap:wrap;gap:5px;margin:16px 0 0}
+.tools span{font-family:var(--sans);font-size:.75rem;color:var(--navy);background:var(--white);border:1px solid var(--rule);padding:3px 8px}
+.feature .tools span{background:transparent;color:var(--on-navy-soft);border-color:var(--on-navy-rule)}
+
+/* ---------------- figures ---------------- */
+figure{margin:0}
+.pic{display:block;position:relative;border:1px solid var(--rule-hard);background:var(--white);line-height:0;text-decoration:none;overflow:hidden}
+.pic:hover{border-color:var(--orange)}
+.pic img{width:100%;height:auto}
+figcaption{font-family:var(--sans);font-size:.79rem;color:var(--muted);line-height:1.5;margin-top:9px;max-width:62ch}
+.feature figcaption{color:var(--on-navy-soft)}
+.feature .pic{border-color:rgba(255,255,255,.35)}
+
+/* photos sit in a fixed frame; screenshots keep their own shape */
+.ph .pic{aspect-ratio:4/3}
+.ph.wide .pic{aspect-ratio:3/2}
+.ph .pic img{width:100%;height:100%;object-fit:cover;object-position:50% 32%}
+
+.shots{display:grid;gap:20px;margin:22px 0 4px}
+.shots.photos{grid-template-columns:1fr 1fr;gap:20px 16px}
+.shots.photos figure:first-child{grid-column:1 / -1}
+.shots.stack{grid-template-columns:1fr;gap:28px;margin-top:30px}
+.shot-single{margin:22px 0 8px}
+.shot-single:not(.ph) .pic{display:inline-block;max-width:100%}
+.shot-single:not(.ph) .pic img{width:auto;max-width:100%}
+.feature .shots.stack .pic{border-color:rgba(255,255,255,.18)}
+
 /* ---------------- engagement blocks ---------------- */
-.eng{border-top:1px solid var(--rule);padding:38px 0 4px}
+.eng{border-top:1px solid var(--rule);padding:36px 0 6px}
+.eng:first-of-type{border-top:none;padding-top:4px}
 @media (min-width:900px){
   .eng{display:grid;grid-template-columns:150px minmax(0,1fr);column-gap:40px}
   .eng > .side{grid-column:1}
   .eng > .body{grid-column:2}
 }
-.side{font-family:var(--sans);font-size:.79rem;line-height:1.45;color:var(--muted);margin:0 0 20px}
+.side{font-family:var(--sans);font-size:.79rem;line-height:1.45;color:var(--muted);margin:0 0 18px}
 .side div{padding:0 0 9px}
 .side b{display:block;color:var(--ink);font-weight:600;font-size:.83rem}
 .side .tag{color:var(--orange-ink);font-weight:600}
+.eng h3{font-size:1.17rem;font-weight:700;letter-spacing:-.015em;margin:0 0 11px;max-width:40ch;line-height:1.3}
 
-.eng h3{font-size:1.16rem;font-weight:700;letter-spacing:-.015em;margin:0 0 11px;max-width:36ch;line-height:1.3}
-
-ul.pts{list-style:none;margin:0 0 4px;padding:0;max-width:66ch}
-ul.pts li{position:relative;padding-left:19px;margin:0 0 9px}
-ul.pts li::before{content:"";position:absolute;left:1px;top:.63em;width:7px;height:7px;background:var(--orange)}
-
-.tools{display:flex;flex-wrap:wrap;gap:5px;margin:16px 0 0}
-.tools span{font-family:var(--sans);font-size:.75rem;color:var(--navy);background:var(--white);border:1px solid var(--rule);padding:3px 8px}
-
-/* ---------------- figures ---------------- */
-figure{margin:24px 0 6px}
-figure a{display:block;border:1px solid var(--rule-hard);background:var(--white);line-height:0;text-decoration:none}
-figure a:hover{border-color:var(--orange)}
-figcaption{font-family:var(--sans);font-size:.79rem;color:var(--muted);line-height:1.5;margin-top:9px;max-width:60ch}
-
-.fig-side{margin:18px 0 8px;max-width:300px}
-@media (min-width:820px){
-  .fig-side{float:right;width:228px;margin:4px 0 20px 28px}
-  .fig-side figcaption{max-width:none}
+.stats{display:grid;grid-template-columns:1fr 1fr;margin:24px 0 22px;border-top:1px solid var(--rule-hard);border-bottom:1px solid var(--rule)}
+@media (min-width:760px){.stats{grid-template-columns:repeat(4,1fr)}}
+.stat{padding:14px 14px 14px 0}
+.stat .v{display:block;font-family:var(--sans);font-weight:600;font-size:1.42rem;letter-spacing:-.02em;line-height:1.15;color:var(--ink);font-variant-numeric:proportional-nums}
+.stat .l{display:block;font-family:var(--sans);font-size:.78rem;color:var(--muted);line-height:1.42;margin-top:5px}
+.stat + .stat{padding-left:14px;border-left:1px solid var(--rule)}
+@media (max-width:759px){
+  .stat:nth-child(3){padding-left:0;border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--rule)}
 }
-.eng .body::after{content:"";display:block;clear:both}
 
-.trio{display:grid;gap:18px;margin:26px 0 0}
-@media (min-width:640px){.trio{grid-template-columns:repeat(3,1fr)}}
-.trio figure{margin:0}
+/* ---------------- systems ---------------- */
+.sys{border-top:1px solid var(--rule);padding:32px 0 6px}
+.sys:first-of-type{border-top:none;padding-top:4px}
+.sys h3{font-size:1.12rem;font-weight:700;letter-spacing:-.012em;margin:0 0 9px}
+.sys .shots{margin-top:18px}
+
+/* ---------------- research rows ---------------- */
+.ev{display:grid;gap:16px;border-top:1px solid var(--rule);padding:28px 0}
+.ev:first-of-type{border-top:none;padding-top:4px}
+@media (min-width:760px){.ev{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:34px;align-items:start}}
+.ev .pic{display:flex;align-items:center;justify-content:center;padding:10px}
+.ev .pic img{width:auto;height:auto;max-width:100%;max-height:400px}
+@media (min-width:760px){.ev.wide{grid-template-columns:1fr;gap:18px}}
+.ev.wide .pic{padding:0}
+.ev.wide .pic img{max-height:none;width:100%}
+.ev h3{font-size:1.08rem;font-weight:700;letter-spacing:-.01em;margin:0 0 4px;line-height:1.3}
+.ev .meta{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0 0 10px}
+.ev p{font-size:.99rem}
 
 /* ---------------- FRAME ---------------- */
-.frame{display:grid;gap:2px;margin:0 0 18px}
-@media (min-width:760px){.frame{grid-template-columns:repeat(5,1fr)}}
-.frame div{background:var(--white);border:1px solid var(--rule);padding:15px 14px 16px}
-.frame span{display:inline-block;width:27px;height:27px;background:var(--navy);color:#fff;
-  font-family:var(--sans);font-weight:700;font-size:.85rem;text-align:center;line-height:27px;margin-bottom:9px}
-.frame b{font-family:var(--sans);font-size:.86rem;display:block;margin-bottom:4px}
-.frame p{font-size:.9rem;color:var(--muted);margin:0;line-height:1.45;max-width:none}
-.loop{font-family:var(--sans);font-size:.79rem;color:var(--muted);border-left:3px solid var(--orange);padding-left:12px;max-width:60ch}
+.fm{display:grid;gap:2px;margin:0 0 26px}
+@media (min-width:760px){.fm{grid-template-columns:repeat(5,1fr)}}
+.fm div{background:var(--white);border:1px solid var(--rule);padding:15px 14px 16px}
+.fm span{display:inline-block;width:27px;height:27px;background:var(--navy);color:#fff;font-family:var(--sans);font-weight:700;font-size:.85rem;text-align:center;line-height:27px;margin-bottom:9px}
+.fm b{font-family:var(--sans);font-size:.86rem;display:block;margin-bottom:4px}
+.fm p{font-size:.9rem;color:var(--muted);margin:0;line-height:1.45;max-width:none}
 
-/* ---------------- lists ---------------- */
-.pubs{list-style:none;margin:0;padding:0}
-.pubs li{border-top:1px solid var(--rule);padding:15px 0;max-width:66ch}
-.pubs li:first-child{border-top:1px solid var(--rule-hard)}
-.pubs .t{display:block;font-weight:600}
-.pubs .s{font-family:var(--sans);font-size:.8rem;color:var(--muted);display:block;margin-top:5px}
-
-dl.spec{margin:0}
-dl.spec > div{border-top:1px solid var(--rule);padding:13px 0}
-dl.spec > div:first-child{border-top:1px solid var(--rule-hard)}
-@media (min-width:700px){dl.spec > div{display:grid;grid-template-columns:13em 1fr;gap:26px}}
-dl.spec dt{font-family:var(--sans);font-size:.85rem;font-weight:600}
-dl.spec dd{margin:0;font-size:.97rem;color:var(--muted)}
-
-.two{display:grid;gap:24px}
-@media (min-width:700px){.two{grid-template-columns:1fr 1fr;gap:24px 44px}}
-.two h4{font-family:var(--sans);font-size:.92rem;font-weight:600;margin:0 0 6px}
-.two p{font-size:.96rem;color:var(--muted);margin:0 0 3px;max-width:44ch}
-.two .yr{font-family:var(--sans);font-size:.78rem;color:var(--navy)}
+/* ---------------- background ---------------- */
+.two{display:grid;gap:26px;margin:0 0 30px}
+@media (min-width:760px){.two{grid-template-columns:1fr 1fr;gap:26px 48px}}
+.two h3{font-size:.95rem;font-weight:700;margin:0 0 10px}
+.plain{list-style:none;margin:0;padding:0}
+.plain li{border-top:1px solid var(--rule);padding:9px 0;font-size:.95rem;line-height:1.5}
+.plain li:first-child{border-top:1px solid var(--rule-hard)}
+.plain .yr{font-family:var(--sans);font-size:.78rem;color:var(--muted);display:block;margin-top:1px}
+.pubs li{max-width:70ch}
+.pubs .s{font-family:var(--sans);font-size:.78rem;color:var(--muted);display:block;margin-top:3px}
+.toolsline{font-size:.95rem;color:var(--muted);max-width:70ch}
 
 /* ---------------- contact ---------------- */
 .contact{border-top:2px solid var(--navy);margin-top:64px;padding-top:24px}
 .contact h2{font-size:1.32rem;font-weight:700;margin:0 0 10px}
 .foot{font-family:var(--sans);font-size:.76rem;color:var(--muted);margin-top:46px;border-top:1px solid var(--rule);padding-top:15px;max-width:none}
 
-/* ---------------- entrance ---------------- */
+/* ---------------- one entrance, once ---------------- */
 .rise{opacity:0;transform:translateY(9px)}
 .ready .rise{opacity:1;transform:none;transition:opacity .45s ease,transform .45s ease}
 .ready .rise:nth-child(2){transition-delay:.05s}
 .ready .rise:nth-child(3){transition-delay:.1s}
 .ready .rise:nth-child(4){transition-delay:.15s}
 @media (prefers-reduced-motion:reduce){.rise{opacity:1;transform:none}.ready .rise{transition:none}}
+html:not(.js) .rise{opacity:1;transform:none}
 
 /* ---------------- print ---------------- */
 @media print{
   body{background:#fff;font-size:10.5pt}
   .rail,.actions{display:none!important}
   .shell{display:block;max-width:none;padding:0}
-  section{padding-top:20pt;break-inside:avoid}
-  .eng,figure,.pubs li{break-inside:avoid}
-  .fig-side{float:none;max-width:190px}
-  .portrait img{width:120px}
+  section{padding-top:18pt}
+  section.feature{margin:18pt 0 0;padding:14pt;background:#fff;color:#000;border:1px solid #999}
+  .feature h2,.feature h3,.step b{color:#000}
+  .feature p,.feature li,.step p,.feature figcaption{color:#222!important}
+  .step{background:#fff;border-color:#999}
+  .eng,.ev,.sys,figure,.step{break-inside:avoid}
   a{text-decoration:none;color:#000}
 }
 </style>
@@ -250,22 +358,22 @@ dl.spec dd{margin:0;font-size:.97rem;color:var(--muted)}
   <a class="mark" href="#top">
     <span class="bar"></span>
     <b>Anthony Micheal<br>Idedia</b>
-    <em>Research, evidence and<br>programme delivery</em>
+    <em>Monitoring, evaluation<br>and research</em>
   </a>
   <nav aria-label="Sections">
     <ul>
       <li><a href="#top">Overview</a></li>
-      <li><a href="#engagements">Engagements</a></li>
-      <li><a href="#systems">Systems I build</a></li>
-      <li><a href="#integrity">Research integrity</a></li>
-      <li><a href="#frame">The FRAME Method</a></li>
-      <li><a href="#synthesis">Reviews and publications</a></li>
-      <li><a href="#field">Field delivery</a></li>
+      <li><a href="#bring">What I bring</a></li>
+      <li><a href="#transcription">Transcription system</a></li>
+      <li><a href="#current">Current work</a></li>
+      <li><a href="#systems">Other systems</a></li>
+      <li><a href="#research">Research and analysis</a></li>
+      <li><a href="#method">How I work</a></li>
       <li><a href="#background">Background</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  <p class="avail">Lagos, Nigeria<br>Open to Abuja, remote<br>and relocation</p>
+  <p class="avail">Lagos, Nigeria<br>Open to relocation, remote<br>work and project travel</p>
 </aside>
 
 <!-- ================= MAIN ================= -->
@@ -277,362 +385,386 @@ dl.spec dd{margin:0;font-size:.97rem;color:var(--muted)}
         <img src="assets/headshot.jpg" alt="Anthony Micheal Idedia" width="440" height="550" fetchpriority="high">
       </figure>
       <div class="hero-text">
-        <p class="kicker rise">Research, evidence and programme delivery, Lagos</p>
-        <h1 class="rise">Primary data, turned into findings people actually act on.</h1>
+        <p class="kicker rise">Monitoring, evaluation and research for development programmes in Nigeria</p>
+        <h1 class="rise">I turn programme data into evidence that teams, donors and government act on.</h1>
         <div class="rise">
-          <p class="lede">Six years generating evidence for donor-funded programmes across global health, livelihoods, climate resilience, inclusive finance and public policy. I handle the research and data workstream at Innovision Global Consulting International, an advisory firm operating in 22 countries.</p>
-          <p class="lede">I design the study, script the instrument, run the analysis and write the report. This page is the work itself rather than a summary of it, so most of what follows is artefacts with an explanation attached.</p>
+          <p class="lede">In 2026 that has meant leading the field team for the Nigeria arm of a UNICEF and WFP study on child malnutrition, working on WimBiz's organisation-wide monitoring and evaluation framework, and training the field team for WFP's independent monitoring in Northeast and Northwest Nigeria.</p>
+          <p class="lede">Alongside the fieldwork I build systems that take routine work off people's hands, including one that turns Hausa interview recordings into checked transcripts and English translations. What follows is the work itself, with the images to show it.</p>
         </div>
       </div>
     </div>
     <div class="actions rise">
       <a class="solid" href="assets/Anthony-Micheal-Idedia-CV.pdf">Download CV</a>
       <a href="mailto:michealidedia1@gmail.com">michealidedia1@gmail.com</a>
-      <!-- EDIT-LINKEDIN -->
       <a href="https://www.linkedin.com/in/micheal-idedia/">LinkedIn</a>
-      <!-- EDIT-SCHOLAR -->
-      <a href="https://scholar.google.com/citations?hl=en&user=1euE4toAAAAJ">Publications</a>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=1euE4toAAAAJ">Publications</a>
     </div>
     <div class="roster">
       <p>Work delivered for</p>
       <ul>
-        <li>World Bank</li><li>PEPFAR</li><li>WHO</li><li>European Union</li>
-        <li>World Food Programme</li><li>NMEP</li><li>Malaria Consortium</li>
-        <li>Danish Refugee Council</li><li>Impact Investors Foundation</li>
+        <li>UNICEF</li><li>World Food Programme</li><li>WimBiz</li><li>Impact Investors Foundation</li>
+        <li>World Bank</li><li>WHO</li><li>PEPFAR</li><li>European Union</li>
+        <li>NMEP</li><li>Malaria Consortium</li><li>Danish Refugee Council</li>
       </ul>
     </div>
   </header>
 
-  <!-- ================= ENGAGEMENTS ================= -->
-  <section id="engagements" aria-labelledby="h-eng">
+  <!-- ================= WHAT I BRING ================= -->
+  <section id="bring" aria-labelledby="h-bring">
     <div class="shead">
-      <h2 id="h-eng">Selected engagements</h2>
-      <p>Scope figures describe the analytical work I personally handled, not total programme reach. Where a study is still live, nothing commercially sensitive appears here.</p>
+      <h2 id="h-bring">What I bring to your programme</h2>
+      <p>Each of these is something I am doing now. The evidence for each is further down the page.</p>
+    </div>
+    <ul class="bring">
+      <li>
+        <h3>Field teams that collect data you can trust</h3>
+        <div>
+          <p>I recruit, train and test enumerators, then go back over the weak spots. On the UNICEF and WFP study, trainee scores rose from 14.0 to 16.2 out of 20, and Innovision's team scored highest of the three teams on the joint pre-test.</p>
+          <a class="see" href="#jasw">See the Katsina fieldwork</a>
+        </div>
+      </li>
+      <li>
+        <h3>Interview findings while the team is still in the field</h3>
+        <div>
+          <p>A system I designed returns a timed Hausa transcript within minutes of an upload, translates it once a supervisor has checked it, and sends a daily summary of what the interviews are saying.</p>
+          <a class="see" href="#transcription">See the transcription system</a>
+        </div>
+      </li>
+      <li>
+        <h3>Monitoring frameworks with the data flow designed in</h3>
+        <div>
+          <p>A framework only works if its data can move from collection to reporting and use. On WimBiz's organisation-wide framework, the analysis and that data pipeline are my part.</p>
+          <a class="see" href="#wimbiz">See the WimBiz framework</a>
+        </div>
+      </li>
+      <li>
+        <h3>Routine work that runs itself</h3>
+        <div>
+          <p>Data requests and reminders for 158 organisations, field team contracts and payment lists, and a weekly scan of tender sources all run on their own, and I write the guides that let colleagues run them without me.</p>
+          <a class="see" href="#systems">See the systems</a>
+        </div>
+      </li>
+      <li>
+        <h3>Analysis that holds up, written for the people who act on it</h3>
+        <div>
+          <p>Every figure is traced to its source and graded for confidence. I led the analysis of a national malaria survey and co-authored the report whose pricing recommendations the National Malaria Elimination Programme took up.</p>
+          <a class="see" href="#research">See the research</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================= FEATURED: TRANSCRIPTION SYSTEM ================= -->
+  <section class="feature" id="transcription" aria-labelledby="h-tr">
+    <p class="origin">Designed for the UNICEF and WFP study in Katsina, 2026</p>
+    <h2 id="h-tr">Hausa interview recordings, turned into checked English transcripts</h2>
+    <p>The joint operation plans 131 interviews and group discussions across Dutsin-Ma, Safana and Kafur. Done by hand, every recording means hours of typing and translating, and the picture across interviews only comes together once the team has left the field.</p>
+    <p>I designed a system that does the routine part automatically and keeps a person on the step that needs judgement: <strong>checking the Hausa before anything is translated.</strong></p>
+
+    <div class="lanes">
+      <div class="lane-head" aria-hidden="true"><span>Field supervisor</span><span>The system</span></div>
+      <ol class="flow">
+        <li class="step human"><span class="n">1</span><span class="actor">Field supervisor</span><b>Upload</b><p>Uploads the recording to their area's folder in Google Drive.</p></li>
+        <li class="step auto"><span class="n">2</span><span class="actor">The system</span><b>Transcribe</b><p>Gemini transcribes the Hausa in five-minute sections, in parallel, with a time on every line.</p></li>
+        <li class="step human"><span class="n">3</span><span class="actor">Field supervisor</span><b>Check</b><p>Corrects the draft against the recording, fills in the interview details and marks it ready. Nothing is translated before this.</p></li>
+        <li class="step auto"><span class="n">4</span><span class="actor">The system</span><b>Translate</b><p>Produces the English translation with a summary, key findings, themes and key statements.</p></li>
+        <li class="step auto"><span class="n">5</span><span class="actor">The system</span><b>Share</b><p>Sends the documents to the supervisor and tells the Innovision, UNICEF and WFP team the translation is ready.</p></li>
+        <li class="step auto"><span class="n">6</span><span class="actor">The system</span><b>Digest</b><p>Every evening, a numbered summary of coverage, themes and quotes by area, building on the one before. Innovision's copy adds coaching points for the field team.</p></li>
+      </ol>
     </div>
 
-    <div class="idx-h sans" aria-hidden="true">
-      <span>Engagement</span><span>Commissioned by</span><span>Scope I handled</span><span>Period</span>
-    </div>
-    <div class="idx">
-      <a class="irow" href="#e1">
-        <span class="i-name">Nigeria impact investment market sizing</span>
-        <span class="i-client">Impact Investors Foundation</span>
-        <span class="i-scope">158 organisations, 332 sources</span>
-        <span class="i-year">2025 to 26</span>
-      </a>
-      <a class="irow" href="#e2">
-        <span class="i-name">Nationwide malaria case management market survey</span>
-        <span class="i-client">Malaria Consortium and NMEP</span>
-        <span class="i-scope">6,000 records, six zones</span>
-        <span class="i-year">2018 to 25</span>
-      </a>
-      <a class="irow" href="#e3">
-        <span class="i-name">Green labour market and climate-smart agriculture baseline</span>
-        <span class="i-client">Danish Refugee Council, EU funded</span>
-        <span class="i-scope">442 households, four LGAs</span>
-        <span class="i-year">2025</span>
-      </a>
-      <a class="irow" href="#e4">
-        <span class="i-name">Nigeria fiscal and social policy evidence series</span>
-        <span class="i-client">Innovision Africa</span>
-        <span class="i-scope">Seven primary national sources</span>
-        <span class="i-year">2022 to 26</span>
-      </a>
-      <a class="irow" href="#e5">
-        <span class="i-name">Multi-wave evidence for national commodity decisions</span>
-        <span class="i-client">National malaria programme partners</span>
-        <span class="i-scope">15+ datasets, 1,800 respondents</span>
-        <span class="i-year">2018 to 24</span>
-      </a>
-      <a class="irow" href="#e6">
-        <span class="i-name">Nigeria state-level ART Impact Survey</span>
-        <span class="i-client">NASCP, NCDC and PEPFAR</span>
-        <span class="i-scope">Facility and community fieldwork</span>
-        <span class="i-year">2024</span>
-      </a>
-      <a class="irow" href="#e7">
-        <span class="i-name">Genomics and imaging pipelines</span>
-        <span class="i-client">Covenant University and World Bank</span>
-        <span class="i-scope">1.2 million data points</span>
-        <span class="i-year">2023 to 25</span>
-      </a>
+    <div class="cols">
+      <div>
+        <h3>Around the edges</h3>
+        <ul class="dots">
+          <li>Gives every interview an ID by area and logs each recording and who checked it.</li>
+          <li>Reminds supervisors about drafts they have not yet checked.</li>
+          <li>Takes typed notes from interviews that could not be recorded, and summarises and translates them too.</li>
+          <li>Labels speakers by role rather than name, and shares transcripts view-only.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What it changed</h3>
+        <ul class="dots">
+          <li>Minutes per interview instead of hours of typing and translating.</li>
+          <li>A person checks every Hausa transcript before it is translated, and every line carries its time in the recording, so any quote can be traced back to the audio.</li>
+          <li>Emerging issues reach Innovision, UNICEF and WFP during fieldwork, not weeks after it.</li>
+          <li>Recordings stay in the project's own Google Drive.</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- e1 -->
-    <article class="eng" id="e1">
+    <div class="shots stack">
+      <figure>
+        <a class="pic" href="assets/transcription-log.png" target="_blank" rel="noopener">
+          <img src="assets/transcription-log.png" alt="The transcription control sheet listing interviews by ID, with names, file names, links and summaries covered" loading="lazy" width="1998" height="959">
+        </a>
+        <figcaption>The control sheet. Every recording gets an ID by area, and the log tracks its status, length and respondent group, who checked it, and a link to each document.</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="assets/transcription-draft.png" target="_blank" rel="noopener">
+          <img src="assets/transcription-draft.png" alt="The first two pages of a Hausa draft transcript, with the transcript text and names covered" loading="lazy" width="2150" height="1430">
+        </a>
+        <figcaption>A Hausa draft as the supervisor receives it: the interview details, the passages to listen to closely, then the transcript, timed line by line and labelled by role. Changing NOT READY to READY sends it for translation.</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="assets/transcription-digest.png" target="_blank" rel="noopener">
+          <img src="assets/transcription-digest.png" alt="The first two pages of fieldwork digest number 3, with findings, quotes and names covered" loading="lazy" width="2150" height="1430">
+        </a>
+        <figcaption>Fieldwork digest No. 3, 24 October 2026. Each finding is marked new or stronger than in digest No. 2 and cites the interviews behind it, with coverage by area alongside.</figcaption>
+      </figure>
+    </div>
+
+    <div class="tools"><span>Google Apps Script</span><span>Gemini</span><span>Google Drive</span><span>Google Sheets</span><span>Gmail</span></div>
+  </section>
+
+  <!-- ================= CURRENT WORK ================= -->
+  <section id="current" aria-labelledby="h-current">
+    <div class="shead">
+      <h2 id="h-current">Current work</h2>
+      <p>Delivered through Innovision Global Consulting, where I work as a research and data analyst.</p>
+    </div>
+
+    <!-- UNICEF and WFP, Katsina -->
+    <article class="eng" id="jasw">
       <div class="side">
-        <div><b>Impact Investors Foundation</b>Nigeria</div>
-        <div><b>Research and data consultant</b>Reporting to the Regional Director for Africa</div>
-        <div><b>2025 to 2026</b>Live engagement</div>
+        <div><b>UNICEF and WFP</b>Joint Action to Stop Wasting</div>
+        <div><b>Field lead and trainer</b></div>
+        <div><b>2026</b>Reporting due December 2026</div>
+        <div class="tag">Katsina State</div>
+      </div>
+      <div class="body">
+        <h3>How UNICEF and WFP's joint approach to child malnutrition works in practice</h3>
+        <p>The Nigeria arm of a five-country study asking what has been changed on the ground and what could work better. I recruited and trained the field team, and I now oversee its data collection.</p>
+
+        <div class="shots photos">
+          <figure class="ph">
+            <a class="pic" href="assets/jasw-unicef-wfp.jpg" target="_blank" rel="noopener">
+              <img src="assets/jasw-unicef-wfp.jpg" alt="Anthony Micheal Idedia with UNICEF and WFP colleagues and the field teams in Katsina" loading="lazy" width="810" height="607">
+            </a>
+            <figcaption>With UNICEF and WFP colleagues in Katsina.</figcaption>
+          </figure>
+          <figure class="ph">
+            <a class="pic" href="assets/jasw-field-team.jpg" target="_blank" rel="noopener">
+              <img src="assets/jasw-field-team.jpg" alt="Anthony Micheal Idedia with the field team he trained" loading="lazy" width="810" height="607">
+            </a>
+            <figcaption>With the field team after training.</figcaption>
+          </figure>
+          <figure class="ph">
+            <a class="pic" href="assets/jasw-fieldwork.jpg" target="_blank" rel="noopener">
+              <img src="assets/jasw-fieldwork.jpg" alt="A member of the field team leading a group discussion, with the participants' faces blurred" loading="lazy" width="887" height="665">
+            </a>
+            <figcaption>A group discussion during fieldwork. Participants' faces are blurred.</figcaption>
+          </figure>
+        </div>
+
+        <div class="stats" role="list">
+          <div class="stat" role="listitem"><span class="v">14.0 to 16.2</span><span class="l">Average trainee score out of 20, before and after training</span></div>
+          <div class="stat" role="listitem"><span class="v">7 of 9</span><span class="l">Trainees whose scores improved</span></div>
+          <div class="stat" role="listitem"><span class="v">80 to 100%</span><span class="l">Scores on the consent and child protection questions</span></div>
+          <div class="stat" role="listitem"><span class="v">12.1 of 15</span><span class="l">Innovision's team on the joint pre-test, highest of three teams</span></div>
+        </div>
+
+        <ul class="dots">
+          <li>Trained six enumerators and a supervisor to run key informant interviews and focus group discussions, with a step-by-step guide to interviewing and a field brief I prepared.</li>
+          <li>Tested the team before and after training, then went back over weak spots such as probing with refresher lessons and quizzes on WhatsApp.</li>
+          <li>Ran the pilot on 8 October 2026 to test the tools, team pairings, recording and timing, then led the team on site into fieldwork, taking part in key informant interviews.</li>
+          <li>Built the transcription system above and an automated contracting system for the team, prepared the field budget and write the progress updates.</li>
+        </ul>
+        <div class="tools"><span>Key informant interviews</span><span>Focus group discussions</span><span>Enumerator training</span><span>Consent and child protection</span></div>
+      </div>
+    </article>
+
+    <!-- WimBiz -->
+    <article class="eng" id="wimbiz">
+      <div class="side">
+        <div><b>WimBiz</b>Women in Management, Business and Public Service</div>
+        <div><b>Research and data analyst consultant</b></div>
+        <div><b>2026</b>Framework submitted September 2026</div>
+        <div class="tag">Organisation-wide</div>
+      </div>
+      <div class="body">
+        <h3>A monitoring and evaluation framework to measure outcomes and long-term impact</h3>
+
+        <figure class="ph wide shot-single">
+          <a class="pic" href="assets/wimbiz-stakeholders.jpg" target="_blank" rel="noopener">
+            <img src="assets/wimbiz-stakeholders.jpg" alt="Anthony Micheal Idedia with WimBiz stakeholders" loading="lazy" width="1600" height="1067">
+          </a>
+          <figcaption>With WimBiz stakeholders, October 2026.</figcaption>
+        </figure>
+
+        <p>WimBiz has worked since 2001 to advance women's leadership in the public and private sectors, through leadership development, mentoring, advocacy and research. The framework is designed to show how those programmes together lead to measurable results, rather than only counting activities.</p>
+        <ul class="dots">
+          <li>I am part of the Innovision team developing and monitoring the framework. My part is the analysis and the data pipeline behind its data strategy.</li>
+          <li>The framework brings together a theory of change, a results framework with SMART indicators and disaggregation, a monitoring plan, data flows and feedback loops, and the tools, templates and dashboards staff will use.</li>
+        </ul>
+        <div class="tools"><span>Theory of change</span><span>Results framework</span><span>SMART indicators</span><span>Data pipeline</span><span>Disaggregation</span></div>
+      </div>
+    </article>
+
+    <!-- WFP independent monitoring -->
+    <article class="eng" id="wfp">
+      <div class="side">
+        <div><b>World Food Programme</b></div>
+        <div><b>Field team recruitment and training</b></div>
+        <div><b>2026</b>In the field from October 2026</div>
+        <div class="tag">Northeast and Northwest</div>
+      </div>
+      <div class="body">
+        <h3>Independent monitoring of WFP operations in Northeast and Northwest Nigeria</h3>
+        <p>Independent checks that WFP-funded operations are delivering what they should. I recruited the field team and trained them before deployment, and I take part in the monitoring directly.</p>
+        <figure class="ph wide shot-single">
+          <a class="pic" href="assets/wfp-tpm-training.jpg" target="_blank" rel="noopener">
+            <img src="assets/wfp-tpm-training.jpg" alt="The WFP monitoring field team in a training session" loading="lazy" width="903" height="602">
+          </a>
+          <figcaption>Training the monitoring team before deployment.</figcaption>
+        </figure>
+        <div class="tools"><span>Third-party monitoring</span><span>Enumerator recruitment</span><span>Enumerator training</span></div>
+      </div>
+    </article>
+
+    <!-- IIF -->
+    <article class="eng" id="iif">
+      <div class="side">
+        <div><b>Impact Investors Foundation</b></div>
+        <div><b>Research and data consultant</b></div>
+        <div><b>2025 to 2026</b></div>
         <div class="tag">158 organisations</div>
       </div>
       <div class="body">
-        <h3>Mapping the Nigerian impact investing market and sizing the capital flows</h3>
-        <p>The first comprehensive attempt to quantify impact capital flowing into Nigeria. The problem is data-scarce by nature: there is no deal register, disclosure practice varies by fund, and the same naira can be counted three times if nobody fixes the definitions first.</p>
-        <ul class="pts">
-          <li>Designed the research protocol and the metric taxonomy that keeps assets under management, committed capital and deployed capital strictly separate, so no two figures in the report are silently measuring different things.</li>
-          <li>Built the verified evidence base across roughly 62 investor organisations from a corpus of about 332 primary sources: development finance institution reports, fund disclosures and portfolio databases. Every extracted figure carries its printed page reference and a confidence grade.</li>
-          <li>Built the primary collection system running across a 158-organisation respondent base: a 42-screen instrument with ten branching logic rules, feeding a live multi-tab data store through an automated response parser.</li>
-          <li>Run the outreach cycle myself, sequenced with tiered escalation and follow-up, alongside a contact enrichment pipeline that resolves organisations to verified addresses.</li>
+        <h3>Sizing Nigeria's impact investment market</h3>
+        <p>The first full picture of impact-focused investment into Nigeria from 2020 to 2026, drawn from about 62 investors and 332 source documents, to a standard that stands up to public and investor scrutiny.</p>
+        <ul class="dots">
+          <li>Set the rules for what counts, so money committed, money paid out and money under management are never confused with one another.</li>
+          <li>Found and fixed serious faults in the dataset I inherited: deals counted twice, different kinds of capital mixed together, dates that did not line up, and a currency conversion method that would have badly distorted the figures for Nigerian institutions.</li>
+          <li>Built the system that collects data directly from 158 organisations, through a 42-question form that only asks each respondent what applies to them.</li>
         </ul>
-        <figure>
-          <a href="assets/typeform-logic-map.png" target="_blank" rel="noopener">
-            <img src="assets/typeform-logic-map.png" alt="Branching logic map for the impact investment data collection instrument, showing question routing" loading="lazy" width="1033" height="414">
+        <figure class="shot-single">
+          <a class="pic" href="assets/typeform-logic-map.png" target="_blank" rel="noopener">
+            <img src="assets/typeform-logic-map.png" alt="Branching logic map for the impact investment data collection form" loading="lazy" width="1033" height="414">
           </a>
-          <figcaption>Conditional logic map for the stakeholder instrument. Each respondent is routed only to the questions that apply to their instrument type and capital position, which is what keeps a 42-screen form completable by a fund manager in one sitting.</figcaption>
+          <figcaption>The form's logic map. Each respondent is routed only to the questions that apply to them.</figcaption>
         </figure>
-        <div class="tools"><span>Protocol design</span><span>Metric taxonomy</span><span>Python</span><span>Typeform</span><span>n8n</span><span>Google Sheets</span></div>
-      </div>
-    </article>
-
-    <!-- e2 -->
-    <article class="eng" id="e2">
-      <div class="side">
-        <div><b>Malaria Consortium and NMEP</b>National Malaria Elimination Programme</div>
-        <div><b>Research and technical data consultant</b></div>
-        <div><b>2018 to 2025 series</b></div>
-        <div class="tag">6,000 records</div>
-      </div>
-      <div class="body">
-        <figure class="fig-side">
-          <a href="assets/policy-synthesis-nmep.jpg" target="_blank" rel="noopener">
-            <img src="assets/policy-synthesis-nmep.jpg" alt="Policy synthesis poster from the Nigeria malaria market analyses presented to NMEP and Malaria Consortium" loading="lazy" width="279" height="495">
-          </a>
-          <figcaption>Policy synthesis from the 2024 and 2025 Nigeria malaria market analyses, presented to NMEP and Malaria Consortium stakeholders.</figcaption>
-        </figure>
-        <h3>Nationwide market survey on malaria case management and prevention</h3>
-        <p>A national household and outlet survey covering all six geopolitical zones, repeated across several rounds. I led the analysis side: what the data says, whether it holds, and what a programme should do differently because of it.</p>
-        <ul class="pts">
-          <li>Cleaning, validation and quality checks on 6,000 records in SPSS, then price elasticity modelling and logistic regression on the outlet and household data.</li>
-          <li>Co-authored the national policy report. Its micro-pricing recommendations were taken up by NMEP stakeholders, which remains the clearest example I have of analysis changing a national decision.</li>
-          <li>Presented the synthesis directly to programme and donor counterparts rather than handing it over for someone else to explain.</li>
-        </ul>
-        <div class="tools"><span>SPSS</span><span>Price elasticity</span><span>Logistic regression</span><span>Outlet survey</span><span>Policy report</span></div>
-      </div>
-    </article>
-
-    <!-- e3 -->
-    <article class="eng" id="e3">
-      <div class="side">
-        <div><b>Danish Refugee Council</b>European Union funded</div>
-        <div><b>Technical data consultant</b></div>
-        <div><b>2025</b>Sokoto State</div>
-        <div class="tag">442 households</div>
-      </div>
-      <div class="body">
-        <h3>Integrated green labour market and climate-smart agriculture baseline, Sokoto</h3>
-        <p>A baseline across four local government areas in a conflict-affected state, covering livelihoods, assets, agriculture and yields, a nine-item food insecurity module, green skills demand and access to vocational training.</p>
-        <ul class="pts">
-          <li>Scripted the ODK instruments and ran the full analysis. The disaggregation frame lives inside the form rather than being reconstructed afterwards, so displacement status, gender of household head, disability and income quintile hold across every table in the report.</li>
-          <li>Built the classification logic behind the report's central claims, including how a household is judged to have adopted climate-smart agriculture. That rule is written down, not applied by feel.</li>
-        </ul>
-        <figure>
-          <a href="assets/odk-instrument-sokoto.png" target="_blank" rel="noopener">
-            <img src="assets/odk-instrument-sokoto.png" alt="ODK survey definition for the Sokoto baseline showing type, name, label, required and relevance columns" loading="lazy" width="1033" height="364">
-          </a>
-          <figcaption>The Sokoto instrument as written. Relevance conditions and constraints sit at question level, so an enumerator cannot record a disability count for a household that reported no disability, and the roster module only opens once consent is captured.</figcaption>
-        </figure>
-        <div class="tools"><span>ODK</span><span>XLSForm logic</span><span>Baseline design</span><span>Food insecurity module</span><span>Disaggregated analysis</span></div>
-      </div>
-    </article>
-
-    <!-- e4 -->
-    <article class="eng" id="e4">
-      <div class="side">
-        <div><b>Innovision Africa</b>Published knowledge product</div>
-        <div><b>Author</b></div>
-        <div><b>2022 to 2026 data</b></div>
-        <div class="tag">Primary sources only</div>
-      </div>
-      <div class="body">
-        <figure class="fig-side">
-          <a href="assets/innovision-brief-published.jpg" target="_blank" rel="noopener">
-            <img src="assets/innovision-brief-published.jpg" alt="Published Innovision Africa brief on Nigeria's safety net reaching fewer of the poor" loading="lazy" width="568" height="571">
-          </a>
-          <figcaption>Published output from the evidence series, released as an Innovision Africa brief.</figcaption>
-        </figure>
-        <h3>Nigeria fiscal and social policy evidence series</h3>
-        <p>A series examining federation revenue against household cost of living, built only on primary national sources: NBS, CBN, OAGF, DMO, NEITI, the World Bank and NPC. No secondary aggregates, no figures lifted from other people's charts.</p>
-        <ul class="pts">
-          <li>Every published figure is re-derived from its original data file in a source notebook, so a sceptical reader can check the arithmetic instead of trusting the author.</li>
-          <li>Each chart ships with an embedded worksheet, which means government and donor readers can interrogate a number directly rather than emailing to ask where it came from.</li>
-          <li>Written for a general audience without softening the method, and used to demonstrate analytical capability to public sector and donor counterparts.</li>
-        </ul>
-        <div class="tools"><span>Public finance</span><span>Reproducible notebooks</span><span>Source provenance</span><span>Data visualisation</span></div>
-      </div>
-    </article>
-
-    <!-- e5 -->
-    <article class="eng" id="e5">
-      <div class="side">
-        <div><b>National malaria programme partners</b></div>
-        <div><b>Analyst</b></div>
-        <div><b>2018 to 2024 waves</b></div>
-        <div class="tag">15+ datasets</div>
-      </div>
-      <div class="body">
-        <h3>Multi-wave analysis framework for national commodity decisions</h3>
-        <ul class="pts">
-          <li>Harmonised 15 or more datasets covering 1,800 respondents across seven survey waves into a single analysis framework, which is mostly the unglamorous work of reconciling instruments that changed between rounds.</li>
-          <li>Built the framework in Python with pandas and statsmodels alongside SPSS, so the trend can be regenerated when a new wave lands rather than rebuilt by hand.</li>
-          <li>The resulting trend analysis informed national malaria commodity distribution decisions.</li>
-        </ul>
-        <div class="tools"><span>pandas</span><span>statsmodels</span><span>SPSS</span><span>Longitudinal design</span></div>
-      </div>
-    </article>
-
-    <!-- e6 -->
-    <article class="eng" id="e6">
-      <div class="side">
-        <div><b>NASCP, NCDC and PEPFAR</b>With NACA and Lagos State Ministry of Health</div>
-        <div><b>Field laboratorian and enumerator</b></div>
-        <div><b>2024</b></div>
-        <div class="tag">National endline</div>
-      </div>
-      <div class="body">
-        <h3>Nigeria state-level ART Impact Survey</h3>
-        <ul class="pts">
-          <li>Structured household interviews and biospecimen collection on CAPI, under national ethical approval, PEPFAR data quality standards and WHO-aligned chain-of-custody documentation.</li>
-          <li>Worked inside multi-agency field teams to keep implementation consistent across facility and community levels.</li>
-          <li>This is where the analysis habits come from. I have collected the kind of data I now clean, which is why I am sceptical of clean datasets.</li>
-        </ul>
-        <div class="tools"><span>CAPI</span><span>Chain of custody</span><span>Ethical protocols</span><span>Multi-agency fieldwork</span></div>
-      </div>
-    </article>
-
-    <!-- e7 -->
-    <article class="eng" id="e7">
-      <div class="side">
-        <div><b>Covenant University</b>World Bank CApIC-ACE project</div>
-        <div><b>Graduate research assistant</b></div>
-        <div><b>Oct 2023 to Aug 2025</b></div>
-        <div class="tag">1.2m data points</div>
-      </div>
-      <div class="body">
-        <h3>Genomics and imaging pipelines under QA and QC protocols</h3>
-        <ul class="pts">
-          <li>Processed more than 1.2 million high-resolution data points through Linux-based pipelines, applying quality control protocols across the project cycle.</li>
-          <li>Wrote Python and Bash automation that cut processing time by 18 per cent, which is what kept World Bank reporting deadlines reachable across several cycles.</li>
-          <li>Fine-tuned MobileSAM for few-shot segmentation of prostate cancer in histopathology images, a gain of more than 10 per cent over baseline, and presented the findings to non-technical stakeholders.</li>
-        </ul>
-        <div class="tools"><span>Linux</span><span>Python</span><span>Bash</span><span>Computer vision</span><span>QA and QC</span></div>
+        <div class="tools"><span>Python</span><span>Typeform</span><span>n8n</span><span>Google Sheets</span><span>Data quality rules</span></div>
       </div>
     </article>
   </section>
 
-  <!-- ================= SYSTEMS ================= -->
+  <!-- ================= OTHER SYSTEMS ================= -->
   <section id="systems" aria-labelledby="h-sys">
     <div class="shead">
-      <h2 id="h-sys">Systems I build</h2>
-      <p>Most research teams lose weeks to work a machine should be doing. I build the machine, then hand it over with a written build guide so it keeps running when I am not there.</p>
+      <h2 id="h-sys">Other systems I have built</h2>
+      <p>Each one replaced work someone was doing by hand. I write the guides that let colleagues run them without me.</p>
     </div>
 
-    <figure>
-      <a href="assets/n8n-outreach-workflow.png" target="_blank" rel="noopener">
-        <img src="assets/n8n-outreach-workflow.png" alt="n8n workflow canvas showing a scheduled outreach sequence and a response processing branch" loading="lazy" width="813" height="688">
-      </a>
-      <figcaption>The collection and integration workflow for the market sizing study, running unattended on a fixed schedule. The upper branch reads the contact sheet, decides what is due, caps the daily send volume and routes each organisation to the right message: invitation, then reminders at day 5, day 12 and a final at day 22, writing status back to the sheet after every send. The lower branch catches submissions, parses them, assesses completeness, sends either a thank-you or a correction request, and marks the organisation as responded.</figcaption>
-    </figure>
+    <div class="sys">
+      <h3>Data collection for 158 organisations</h3>
+      <p>Built for the impact investment study. It sends each organisation its invitation and reminders at day 5, day 12 and day 22, writes every status back to the contact sheet, reads each reply as it arrives, rates how complete it is, and sends either a thank-you or a request for what is missing.</p>
+      <figure class="shot-single">
+        <a class="pic" href="assets/n8n-outreach-workflow.png" target="_blank" rel="noopener">
+          <img src="assets/n8n-outreach-workflow.png" alt="n8n workflow with a scheduled invitation and reminder branch and a reply processing branch" loading="lazy" width="813" height="688">
+        </a>
+        <figcaption>The workflow in n8n. The upper branch runs the invitation and reminder schedule; the lower branch processes each reply.</figcaption>
+      </figure>
+    </div>
 
-    <ul class="pts" style="margin-top:26px">
-      <li><b>Automated collection and integration.</b> n8n Cloud workflows connecting form platforms, email, APIs and a live multi-tab data store, with an escalation ladder and skip statuses so nobody is chased twice or forgotten once.</li>
-      <li><b>Contact enrichment pipeline.</b> A seven-stage Python pipeline resolving organisations to verified contact addresses through domain matching and PDF mining, with automatic backup and carry-forward so a re-run can never overwrite hand-verified data.</li>
-      <li><b>Opportunity monitoring.</b> A scored radar across 70 or more donor, multilateral and government procurement sources, scoring each tender against portfolio criteria and routing a weekly digest to portfolio leads. It replaced manual scanning of tender portals.</li>
-      <li><b>Reproducible analysis.</b> Notebooks that regenerate every output from raw inputs, plus Power BI dashboards for indicator tracking and management reporting.</li>
-      <li><b>Business development infrastructure.</b> Service proposition, pitch materials and a ranked 90-organisation prospect pipeline for an impact evaluation retainer offer, plus technical and financial proposals for competitive tenders.</li>
-    </ul>
-    <div class="tools" style="margin-top:18px"><span>n8n Cloud</span><span>Python</span><span>Google Sheets API</span><span>Typeform</span><span>Power BI</span><span>Gmail API</span></div>
+    <div class="sys">
+      <h3>Opportunity Radar</h3>
+      <p>Replaces hours of checking donor and government tender websites by hand. I catalogued 184 sources across 111 websites by how each can be accessed, and ranked them by how many real opportunities they had produced. The radar monitors 70 or more of them on a schedule, removes duplicates, filters and scores what it finds, and sends a weekly summary to four team leads.</p>
+      <p>Two AI models and a rules-based scorer run side by side, and their results are compared before anything is sent, so no single model decides what reaches a colleague.</p>
+      <figure class="shot-single">
+        <a class="pic" href="assets/radar-workflow.png" target="_blank" rel="noopener">
+          <img src="assets/radar-workflow.png" alt="The Opportunity Radar workflow in n8n, four rows of connected nodes" loading="lazy" width="661" height="364">
+        </a>
+        <figcaption>The radar's workflow in n8n, from fetching the sources to scoring and sending.</figcaption>
+      </figure>
+    </div>
+
+    <div class="sys">
+      <h3>Field team contracting</h3>
+      <p>Built for the Katsina field team. Team members submit their details on a form and sign their contract online, and signed copies and the payment list go to management and Accounts automatically.</p>
+      <figure class="shot-single">
+        <a class="pic" href="assets/contracting-contract.png" target="_blank" rel="noopener">
+          <img src="assets/contracting-contract.png" alt="A two-page enumerator contract produced by the system, with personal, contact, bank and pay details covered" loading="lazy" width="2150" height="1430">
+        </a>
+        <figcaption>A contract the system produced and a team member signed online. The signature is logged with its date and time.</figcaption>
+      </figure>
+    </div>
+
+    <div class="sys">
+      <h3>Reading documents at scale</h3>
+      <p>Python systems that read several hundred annual reports and financial documents and turn them into clean datasets, including matching and merging around 983 records from 35 separate spreadsheets.</p>
+    </div>
   </section>
 
-  <!-- ================= INTEGRITY ================= -->
-  <section id="integrity" aria-labelledby="h-int">
+  <!-- ================= RESEARCH ================= -->
+  <section id="research" aria-labelledby="h-res">
     <div class="shead">
-      <h2 id="h-int">Research integrity</h2>
-      <p>The part of the job that does not show up in a deliverable, and the part I would want to be judged on.</p>
+      <h2 id="h-res">Research and analysis</h2>
+      <p>Selected studies, each shown with an output from the work itself.</p>
     </div>
-    <ul class="pts">
-      <li><b>A wrong number stops the analysis.</b> I built a source-parsing notebook in which every published figure is re-derived at run time from its original data file, checked in code against an independently published anchor and logged in a provenance ledger. If a figure fails its check the run halts rather than quietly producing a chart.</li>
-      <li><b>Confidence is graded per figure.</b> Classification rules and per-figure confidence grading keep numbers comparable and traceable. Where two credible sources disagree, the discrepancy is preserved and flagged rather than resolved quietly to make the table look tidy.</li>
-      <li><b>I have taken correction publicly.</b> On a published report I responded to a 22-point external methodological audit, verified each flag against primary source, and revised the analysis where the criticism held. One finding did not survive correction and I reported it as such instead of retaining it.</li>
-      <li><b>Ethics is procedural, not aspirational.</b> Work under national ethical approval, PEPFAR data quality standards and WHO-aligned chain-of-custody documentation, with consent and confidentiality protocols applied throughout.</li>
-    </ul>
+
+    <div class="ev">
+      <figure>
+        <a class="pic" href="assets/policy-synthesis-nmep.jpg" target="_blank" rel="noopener">
+          <img src="assets/policy-synthesis-nmep.jpg" alt="Policy synthesis from the Nigeria malaria market analyses" loading="lazy" width="279" height="495">
+        </a>
+        <figcaption>Policy synthesis from the 2024 and 2025 malaria market analyses, presented to NMEP and Malaria Consortium stakeholders.</figcaption>
+      </figure>
+      <div>
+        <h3>Nationwide malaria market survey</h3>
+        <p class="meta">Malaria Consortium and the National Malaria Elimination Programme, 2018 to 2025 series</p>
+        <p>Led the analysis of a national survey of 6,000 households and retail outlets across all six geopolitical zones, and co-authored the policy report whose pricing recommendations NMEP took up. Merged 15 or more survey rounds covering 1,800 people from 2018 to 2024 into a single dataset for the trend analysis.</p>
+      </div>
+    </div>
+
+    <div class="ev wide">
+      <figure>
+        <a class="pic" href="assets/odk-instrument-sokoto.png" target="_blank" rel="noopener">
+          <img src="assets/odk-instrument-sokoto.png" alt="ODK survey definition for the Sokoto baseline" loading="lazy" width="1033" height="364">
+        </a>
+        <figcaption>The survey form as written, with relevance and constraint rules at question level.</figcaption>
+      </figure>
+      <div>
+        <h3>Green jobs and climate-smart farming baseline, Sokoto</h3>
+        <p class="meta">Danish Refugee Council, European Union funded, 2025</p>
+        <p>Built the survey forms and ran the full analysis for 442 households across four local government areas, with every result broken down by displacement status, gender of household head, disability and income. Farmers using climate-smart practices produced roughly double the yield per hectare of those who did not, 883 kg against 433 kg, which became the report's headline finding.</p>
+      </div>
+    </div>
+
+    <div class="ev">
+      <figure>
+        <a class="pic" href="assets/innovision-brief-published.jpg" target="_blank" rel="noopener">
+          <img src="assets/innovision-brief-published.jpg" alt="Published Innovision Africa brief from the Nigeria evidence series" loading="lazy" width="568" height="571">
+        </a>
+        <figcaption>A published brief from the series, released by Innovision Africa.</figcaption>
+      </figure>
+      <div>
+        <h3>Public finance and the cost of living</h3>
+        <p class="meta">Innovision Nigeria evidence series, 2022 to 2026 data</p>
+        <p>Tests whether Nigeria's recent surge in government revenue reached households, using only official published data. I wrote the third report in the series and built the analysis so that every figure is recalculated from the original government files each time it runs, checked against independently published numbers and logged with its source.</p>
+      </div>
+    </div>
   </section>
 
-  <!-- ================= FRAME ================= -->
-  <section id="frame" aria-labelledby="h-frame">
+  <!-- ================= HOW I WORK ================= -->
+  <section id="method" aria-labelledby="h-method">
     <div class="shead">
-      <h2 id="h-frame">The FRAME Method</h2>
-      <p>A reusable model I designed for how I take on an assignment, from framing the question through to handing over work that runs without me. It applies whether the assignment is a study, an evaluation, an analysis or a system.</p>
+      <h2 id="h-method">How I work</h2>
+      <p>The FRAME Method is the model I designed for taking on any assignment, from framing the question to handing over work that runs without me.</p>
     </div>
-    <div class="frame">
+    <div class="fm">
       <div><span>F</span><b>Frame the question</b><p>Agree the real question and what evidence would answer it, before committing to a method.</p></div>
       <div><span>R</span><b>Rules and design</b><p>Fix definitions, classification rules and design decisions before the work starts.</p></div>
       <div><span>A</span><b>Acquire the evidence</b><p>Build and gather it hands on: instruments, fieldwork, primary sources.</p></div>
       <div><span>M</span><b>Measure and verify</b><p>Analyse, then check each result against its source and flag confidence explicitly.</p></div>
       <div><span>E</span><b>Embed for use</b><p>Document and automate so the work runs again without me, and translate it for whoever must act.</p></div>
     </div>
-    <p class="loop">The loop closes: what the work reveals re-frames the next question. In practice the fifth stage is the one most projects skip, and it is the reason so much analysis has to be rebuilt from scratch the following year.</p>
-  </section>
-
-  <!-- ================= SYNTHESIS ================= -->
-  <section id="synthesis" aria-labelledby="h-syn">
-    <div class="shead">
-      <h2 id="h-syn">Reviews and publications</h2>
-    </div>
-    <ul class="pts">
-      <li><b>Systematic review and meta-analysis.</b> Lead author on a completed review of teenage pregnancy prevalence in Nigeria, currently in preparation for submission. Protocol design and registration, search strategy, extraction architecture, and meta-analysis where the data supports it with structured narrative synthesis where it does not.</li>
-      <li><b>Meta-analysis pipelines in code.</b> Pooled-effect analyses built in R and Python rather than by hand, so heterogeneity statistics, sensitivity analyses and subgroup splits can all be regenerated on a corrected dataset.</li>
-      <li><b>Mixed-methods design.</b> Instruments across ODK, SurveyCTO, KoboCollect, Typeform and CAPI with skip logic, constraint rules and validation at the point of entry. Qualitative coding and inter-coder consistency in ATLAS.ti.</li>
+    <ul class="dots">
+      <li><b>Every number traced.</b> Each figure carries its source and a confidence grade, and a figure that fails its check stops the analysis instead of reaching a chart.</li>
+      <li><b>Corrected in the open.</b> On a published report I worked through a 22-point outside review, checked every point against the source, and reported a finding as no longer holding when a stricter test showed it did not survive.</li>
+      <li><b>Ethics built in.</b> Consent and confidentiality in every study, field teams trained on consent and child protection, and national ethics approval and PEPFAR data quality standards on health studies.</li>
     </ul>
-
-    <ul class="pubs" style="margin-top:28px">
-      <li>
-        <span class="t">Deciphering the genomic architecture of three major cancers in African-ancestry populations</span>
-        <span class="s">David, E., Anthony, M. I., et al. (2025). <a href="https://doi.org/10.64898/2025.12.19.25342629">doi:10.64898/2025.12.19.25342629</a></span>
-      </li>
-      <li>
-        <span class="t">Bayesian meta-analysis of SRD5A2 polymorphisms and prostate cancer risk in African populations</span>
-        <span class="s">Isewon, I., Anthony, M., et al. (2025). NIPES Journal of Science and Technology Research, 7(1). <a href="https://doi.org/10.37933/nipes/7.4.2025.si278">doi:10.37933/nipes/7.4.2025.si278</a></span>
-      </li>
-      <li>
-        <span class="t">Awareness of penile ossification among men: a pilot exploratory cross-sectional study</span>
-        <span class="s">Ude, R., Williams, J., Dare, I. E., Anthony, M. I., et al. (2025). IJBAIR, 13(3), 112 to 119.</span>
-      </li>
-      <li>
-        <span class="t">Adapting MobileSAM for few-shot segmentation of prostate cancer in histopathology images</span>
-        <span class="s">Anthony, M. I. (2025). MSc dissertation, Covenant University.</span>
-      </li>
-    </ul>
-  </section>
-
-  <!-- ================= FIELD ================= -->
-  <section id="field" aria-labelledby="h-field">
-    <div class="shead">
-      <h2 id="h-field">Field delivery and community health leadership</h2>
-      <p>Designed and delivered end to end: securing access through local leadership, raising the funds and running the events. Elected President of the Medical Community Development Service group during national service, leading three outreaches across a single service year.</p>
-    </div>
-
-    <div class="trio">
-      <figure>
-        <a href="assets/outreach-reproductive-health.jpg" target="_blank" rel="noopener">
-          <img src="assets/outreach-reproductive-health.jpg" alt="Reproductive health lecture and screening outreach for female corps members" loading="lazy" width="316" height="422">
-        </a>
-        <figcaption>Reproductive health lecture and screening attended by over 500 women. I raised the sponsorship that made subsidised clinical testing possible, including high vaginal swab screening.</figcaption>
-      </figure>
-      <figure>
-        <a href="assets/outreach-prostate-campaign.jpg" target="_blank" rel="noopener">
-          <img src="assets/outreach-prostate-campaign.jpg" alt="Prostate health campaign delivered with market leadership" loading="lazy" width="316" height="422">
-        </a>
-        <figcaption>Prostate health campaign for men in the main market, with almost 100 traders attending. Access came from engaging the market leadership directly rather than arriving with a banner.</figcaption>
-      </figure>
-      <figure>
-        <a href="assets/outreach-school.jpg" target="_blank" rel="noopener">
-          <img src="assets/outreach-school.jpg" alt="School outreach for teachers, staff and parents" loading="lazy" width="316" height="422">
-        </a>
-        <figcaption>School outreach in partnership with one of the major schools in the town, reaching about 70 teachers, staff and parents.</figcaption>
-      </figure>
-    </div>
-    <p style="margin-top:22px">Fundraising ran across the whole service year to cover testing costs, materials and logistics for all three events. I mention it because programme work is often judged on design and rarely on whether the person can actually get a hundred traders into a room on a Tuesday morning.</p>
   </section>
 
   <!-- ================= BACKGROUND ================= -->
@@ -640,75 +772,80 @@ dl.spec dd{margin:0;font-size:.97rem;color:var(--muted)}
     <div class="shead">
       <h2 id="h-bg">Background</h2>
     </div>
-
-    <div class="two" style="margin-bottom:32px">
+    <div class="two">
       <div>
-        <h4>MSc Bioinformatics, Distinction</h4>
-        <p>Covenant University, Ota, at the World Bank affiliated CApIC Centre of Excellence.</p>
-        <p class="yr">2024 to 2025</p>
+        <h3>Education</h3>
+        <ul class="plain">
+          <li>MSc Bioinformatics, Distinction<span class="yr">Covenant University, World Bank affiliated CApIC Centre of Excellence, 2025</span></li>
+          <li>BMLS Chemical Pathology<span class="yr">Ambrose Alli University, Ekpoma, 2019</span></li>
+          <li>Data Analytics and Business Intelligence<span class="yr">Dataleum, Lagos, 2022</span></li>
+        </ul>
       </div>
       <div>
-        <h4>BMLS Chemical Pathology</h4>
-        <p>Ambrose Alli University, Edo State.</p>
-        <p class="yr">2013 to 2019</p>
-      </div>
-      <div>
-        <h4>Research and Data Consultant</h4>
-        <p>Innovision Global Consulting International Nigeria. Handling the research and data workstream across the Nigeria portfolio.</p>
-        <p class="yr">Nov 2025 to present</p>
-      </div>
-      <div>
-        <h4>Earlier</h4>
-        <p>Research analysis and training evaluation at AlphaTrack Intelligence, independent field monitoring for WHO in Ogun State, and data analytics certification at Dataleum, Lagos.</p>
-        <p class="yr">2022 to 2025</p>
+        <h3>Before Innovision</h3>
+        <ul class="plain">
+          <li>Graduate Research Assistant, World Bank CApIC-ACE project<span class="yr">Covenant University, 2023 to 2025</span></li>
+          <li>Survey Enumerator and Field Laboratorian, Nigeria ART Impact Survey<span class="yr">NASCP, NCDC and PEPFAR, 2024</span></li>
+          <li>Data Training and Development Coordinator, and Data Analyst<span class="yr">AlphaTrack Intelligence, 2022 to 2025</span></li>
+          <li>Independent Field Monitor, national vaccination campaign<span class="yr">World Health Organization, Ogun State, 2022</span></li>
+          <li>National service: elected President of the Medical Community Development Service group, leading three community health outreaches</li>
+        </ul>
       </div>
     </div>
 
-    <dl class="spec">
-      <div><dt>Quantitative</dt><dd>Python with pandas, NumPy and statsmodels, R, SPSS, GraphPad, advanced Excel. Regression and classification modelling, price elasticity estimation, disaggregation, multiple-comparison correction.</dd></div>
-      <div><dt>Qualitative</dt><dd>ATLAS.ti, thematic coding, inter-coder consistency, synthesis of interviews and focus groups with survey data.</dd></div>
-      <div><dt>Data collection</dt><dd>ODK, SurveyCTO, KoboCollect, Typeform, CAPI. Form scripting, constraint and relevance logic, GPS validation.</dd></div>
-      <div><dt>Systems</dt><dd>n8n Cloud, Google Sheets and Gmail APIs, Linux command line, reproducible analysis notebooks, Power BI.</dd></div>
-      <div><dt>Sectors</dt><dd>Global health, livelihoods and food security, climate resilience, impact investing and inclusive finance, public finance.</dd></div>
-      <div><dt>Availability</dt><dd>Lagos based, open to Abuja and relocation, available for travel within and outside Nigeria.</dd></div>
-    </dl>
+    <div class="two">
+      <div>
+        <h3>Publications</h3>
+        <ul class="plain pubs">
+          <li>Deciphering the genomic architecture of three major cancers in African-ancestry populations<span class="s">David, E., Anthony, M. I., et al. (2025). <a href="https://doi.org/10.64898/2025.12.19.25342629">doi:10.64898/2025.12.19.25342629</a></span></li>
+          <li>Bayesian meta-analysis of SRD5A2 polymorphisms and prostate cancer risk in African populations<span class="s">Isewon, I., Anthony, M., et al. (2025). NIPES Journal of Science and Technology Research, 7(1). <a href="https://doi.org/10.37933/nipes/7.4.2025.si278">doi:10.37933/nipes/7.4.2025.si278</a></span></li>
+          <li>Adapting MobileSAM for few-shot segmentation of prostate cancer in histopathology images<span class="s">Anthony, M. I. (2025). MSc dissertation, Covenant University.</span></li>
+          <li>Systematic review of the prevalence of teenage pregnancy in Nigeria<span class="s">Lead author. Completed, in preparation for submission.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <p class="toolsline">Python (pandas, NumPy, statsmodels, matplotlib), SPSS, GraphPad and advanced Excel for analysis. ATLAS.ti for qualitative coding. ODK, SurveyCTO, KoboCollect, Typeform and CAPI for data collection. n8n and Google Apps Script, with Anthropic and Google model APIs, for automation. Power BI for dashboards. Linux and Bash.</p>
+      </div>
+    </div>
   </section>
 
   <!-- ================= CONTACT ================= -->
   <section class="contact" id="contact" aria-labelledby="h-contact">
     <h2 id="h-contact">Get in touch</h2>
-    <p>Open to research, evidence and MEL roles, management consulting, and commissioned studies or evaluations. If you want the long version, the CV is below. If you want to test any claim on this page, ask me for the source file.</p>
+    <p>Open to monitoring, evaluation and research roles, consulting assignments and commissioned studies. If you want to test any claim on this page, ask me for the source.</p>
     <div class="actions">
       <a class="solid" href="mailto:michealidedia1@gmail.com">michealidedia1@gmail.com</a>
-      <!-- EDIT-PHONE -->
-      <a href="tel:+2349063937332">+234 906 393 7332</a>
-      <!-- EDIT-LINKEDIN -->
+      <a href="tel:+2349063937332">+234&nbsp;906&nbsp;393&nbsp;7332</a>
       <a href="https://www.linkedin.com/in/micheal-idedia/">LinkedIn</a>
       <a href="assets/Anthony-Micheal-Idedia-CV.pdf">Download CV</a>
     </div>
-    <p class="foot">Anthony Micheal Idedia, Lagos, Nigeria. Last updated September 2026. Built as a single HTML file, no tracking and no cookies. Screenshots are from my own working files, and live studies appear without commercially sensitive detail.</p>
+    <p class="foot">Anthony Micheal Idedia, Lagos, Nigeria. Updated October 2026. One HTML file, no tracking and no cookies. No respondent data appears on this page.</p>
   </section>
 
 </main>
 </div>
 
 <script>
-requestAnimationFrame(function(){ document.body.classList.add('ready'); });
+(function () {
+  requestAnimationFrame(function () { document.body.classList.add('ready'); });
 
-var links = Array.prototype.slice.call(document.querySelectorAll('.rail nav a'));
-var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
-if ('IntersectionObserver' in window && targets.length){
-  var seen = {};
-  var io = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ seen[e.target.id] = e.intersectionRatio; });
-    var best = null, top = -1;
-    for (var id in seen){ if (seen[id] > top){ top = seen[id]; best = id; } }
-    links.forEach(function(a){
-      a.setAttribute('aria-current', a.getAttribute('href') === '#' + best ? 'true' : 'false');
-    });
-  }, { rootMargin: '-12% 0px -62% 0px', threshold: [0, 0.2, 0.5, 1] });
-  targets.forEach(function(t){ io.observe(t); });
-}
+  /* ---- highlight the section in view ---- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail nav a'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window && targets.length) {
+    var seen = {};
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { seen[e.target.id] = e.intersectionRatio; });
+      var best = null, top = -1;
+      for (var id in seen) { if (seen[id] > top) { top = seen[id]; best = id; } }
+      links.forEach(function (a) {
+        a.setAttribute('aria-current', a.getAttribute('href') === '#' + best ? 'true' : 'false');
+      });
+    }, { rootMargin: '-12% 0px -62% 0px', threshold: [0, 0.2, 0.5, 1] });
+    targets.forEach(function (t) { io.observe(t); });
+  }
+})();
 </script>
 </body>
 </html>
